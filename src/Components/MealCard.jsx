@@ -11,7 +11,7 @@ const MealCard = ({neal:{strMeal,idMeal, strMealThumb}}) => {
         <img src={strMealThumb} className='w-[80%] m-auto pt-5'></img>
         <h1 className='p-5 font-bold'>{strMeal.substring(0,30)}</h1>
 
-        <button className='bg-gray-100 px-5 py-2 mb-5 from-neutral-700 '
+        <button className='bg-gray-100 px-5 py-2 mb-5 hover:bg-gray-300'
         onClick={()=>nav(`/tutorial-page/${idMeal}`)}>Tutorial</button>
 
 

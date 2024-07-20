@@ -4,14 +4,14 @@ import {NavLink} from 'react-router-dom'
 const Header = () => {
   return (
     <>
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center justify-evenly bg-slate-800 text-white'>
             
                 <div>
-                    <h1 className='shadow-sm py-8 px-4 text-3xl font-bold'>Foods.co</h1>
+                    <h1 className='shadow-sm py-8 text-3xl font-bold'>Foods.co</h1>
                     
                 </div>
 
-                <div className='px-20'>
+                <div className='px-20 '>
                     <NavLink to='/home-page'>Home</NavLink>
                 </div>
         
